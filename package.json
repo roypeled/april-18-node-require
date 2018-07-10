@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "ascli": "^1.0.1",
-    "figlet": "^1.2.0"
+    "figlet": "^1.2.0",
+    "jquery": "^3.3.1"
   }
 }
