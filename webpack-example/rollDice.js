@@ -1,5 +1,11 @@
-function rollDice() {
+export function rollDice() {
 	return Math.ceil(Math.random() * 6);
 }
 
-module.exports = rollDice;
+export const name = "roy";
+
+export class User {
+	constructor(name){
+		this.name = name;
+	}
+}

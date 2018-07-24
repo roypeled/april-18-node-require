@@ -1,8 +1,12 @@
-const $ = require('jquery');
-const rand = require('./rollDice');
+import $ from 'jquery';
+import {name, rollDice, User} from "./rollDice";
 
-require("./style.css");
+import "./style.css";
 
-$("body").html("hello class");
+let u = new User(name);
 
-document.body.innerHTML += `<br/>You have rolled ${rand()}`;
+$("body").html("hello " + u.name);
+
+document.body
+	.innerHTML +=
+	`<br/>You have rolled ${rollDice()}`;
